@@ -1,0 +1,91 @@
+*{
+    font-family:Poppins;
+    font-weight: 700;
+}
+.nav-link{
+    color: black;
+}
+.judul{
+    font-size:40px;
+    font-family:Viga;
+    color: #F79502;
+}
+.tanggal{
+    font-family:Tajawal;
+}
+.judul_awal h1{
+    background: -webkit-linear-gradient(45deg, #ffb545, #F79502);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+}
+.button_order:hover{
+    background-color: #F79502;
+    color: white !important;
+}
+.button_contact a:hover{
+    border-radius: 10px;
+    background-color: #ffa825;
+}
+.button_order a:hover{
+    color: white !important;
+}
+.card-body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services{
+        background: linear-gradient(
+            to bottom,
+            white 0%,
+            #E3C770 50%,                                                                 
+            #E3C770 50%,
+            #E3C770 100%
+        );
+        padding: 50px;
+        text-align: center;
+        color: black;
+}
+.button_read{
+    background-color: #F79502;
+    color: white;
+}
+.button_read:hover{
+    background-color: #ffa825;
+    color: white;
+}
+#Work{
+    margin-top: -50px;
+    background-color: #E3C770;
+    color: white;
+}
+.pertanyaan h1{
+    background: -webkit-linear-gradient(45deg, #ff8e8a, #F79502);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 800;
+}
+@media only screen and (max-width: 991px) {
+    img.gambar_work{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .isi_work{
+        text-align :center;
+    }
+    .header_left{
+        text-align: center;
+    }
+    .about_gambar img{
+        width: 50% !important;
+        float: none !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .about_pesan{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80% !important;
+        text-align :center !important;
+    }
+}

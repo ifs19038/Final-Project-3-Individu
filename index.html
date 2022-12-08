@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Proyek 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.css">
+</head>
+    <body>
+        <div class="container">
+          <!--Header & Banner-->
+          <nav class="navbar fixed-top navbar-expand-lg bg-light">
+            <div class="container ">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo_jasa.png" alt="Bootstrap" width="130" height="40">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" >
+                  <li class="nav-item px-3" >
+                    <a class="nav-link "  href="#">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#Services">Services</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#Work">Portofolio</a>
+                  </li>
+                  <li class="nav-item mx-3 rounded-3 button_contact" style="background-color: #f79502; ">
+                    <a class="nav-link" style="color: white;" href="#Contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container rounded-5 " >
+            <div class="row mt-5 ">
+              <div class="col-md-12 col-lg-5  my-5 header_left">
+                <div class="judul_awal pt-5 mt-5">
+                  <h1 style="font-weight: 700; font-size: 55px;" >Welcome To <br>Jasa Web</h1>
+                  <p style="font-size: 18px; color: #F79502;">Menyediakan Jasa Pembuatan Web Profesional<br> cepat dengan harga terjangkau dan Berkualitas.</p>
+                  <button type="button" class="btn rounded-pill button_order"  style="font-size: 20px; border-color: #F79502; border-width: 2px;"> <a href="#" style="text-decoration: none; color: #F79502;"> Order Now </a> </button>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-7 my-5 d-flex justify-content-end">
+                <img src="img/home.jpg" alt="" style="width: 100%; height: 100%;">
+              </div>
+            </div>
+          </div>
+        <!--About and Our Valuable Services-->
+        <section id="About" class="pt-3 mt-5">
+            <div class="pt-5">
+                <h2 class="text-center judul pb-3">About Us</h2>
+                <div class="row about_isi">
+                  <div class="col-lg-6 col-sm-12 about_gambar">
+                    <img  style="width: 70%; height: 100%; float: right;" src="img/about.jpg" alt="">
+                  </div>
+                  <div class="text-start about_pesan col-sm-12" style="width: 30%; ">
+                    <p style="text-align: justify;">Jasa Web merupakan sebuah web yang berfokus pada layanan Profesional pembuatan Website, sejak tahun 2022. Website ini didirikan & dikelola oleh orang-orang yang memiliki passion di bidang IT & Art.  Di tahun 2022 usaha Penyedia Jasa Pembuatan Website yang propesional di Indonesia  belum  banyak. Demikian pula tools yang tersedia untuk perusahaan pembuatan web pun masih sedikit. Seiring berjalannya waktu jumlah service semakin meningkat.  Saat ini Jasa Web telah menyelesaikan beberapa projects.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="Services" >
+            <div class="text-center mt-5 mb-5 services">
+                <h2 class="p-4 judul">Our Valuable Services</h2>
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="col-sm-11">
+                      <div class="card ">
+                        <div class="card-body">
+                          <img style="width: 80%;" src="img/services1.jpg" alt="">
+                          <h5 class="card-title judul" style="color: rgb(207, 159, 0); font-size:25px">Persuasive Website</h5>
+                          <p class="card-text">Desain website dan konten kreatif lebih menarik perhatian...</p>
+                          <button type="button" class="btn button_read" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="col-sm-11">
+                      <div class="card ">
+                        <div class="card-body">
+                          <img style="width: 80%;" src="img/services2.jpg" alt="">
+                          <h5 class="card-title judul" style="color: rgb(207, 159, 0); font-size:25px">Fast Work</h5>
+                          <p class="card-text">Kami memprioritaskan projek anda ditangani lebih cepat...</p>
+                          <button type="button" class="btn button_read" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="col-sm-11">
+                      <div class="card ">
+                        <div class="card-body">
+                          <img style="width: 80%;" src="img/services3.png" alt="">
+                          <h5 class="card-title judul" style="color: rgb(207, 159, 0); font-size:25px">Free Maintenance</h5>
+                          <p class="card-text">Anda awam dengan website? Tidak perlu khawatir...</p>
+                          <button type="button" class="btn button_read" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="col-sm-11">
+                      <div class="card ">
+                        <div class="card-body">
+                          <img style="width: 80%;" src="img/services4.jpg" alt="">
+                          <h5 class="card-title judul" style="color: rgb(207, 159, 0); font-size:25px">Transparancy</h5>
+                          <p class="card-text">Nilai keterbukaan kami kepada klien sangat dijunjung tinggi...</p>
+                          <button type="button" class="btn button_read" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="col-sm-11">
+                      <div class="card ">
+                        <div class="card-body">
+                          <img style="width: 80%;" src="img/services5.jpg" alt="">
+                          <h5 class="card-title judul" style="color: rgb(207, 159, 0); font-size:25px">Legal Business</h5>
+                          <p class="card-text">Projek anda ditangani oleh tim yang tepat, memiliki badan...</p>
+                          <button type="button" class="btn button_read" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="col-sm-11">
+                      <div class="card ">
+                        <div class="card-body">
+                          <img style="width: 80%;" src="img/services6.jpg" alt="">
+                          <h5 class="card-title judul" style="color: rgb(207, 159, 0); font-size:25px">Guaranteed</h5>
+                          <p class="card-text">Layanan yang kami berikan memiliki garansi penuh atas...</p>
+                          <button type="button" class="btn button_read" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Persuasive Design</h1>
+                  </div>
+                  <div class="modal-body" style="text-align: justify;">
+                    Website dan konten kreatif lebih menarik perhatian, dibuat langsung dari tim web developer yang berpengalaman, dan juga semua developer di jasa web sudah melalui seleksi yang cukup ketat.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Fast Work</h1>
+                  </div>
+                  <div class="modal-body" style="text-align: justify;">
+                    Kami memprioritaskan projek anda ditangani lebih cepat dengan hasil rapih dan profesional di mata konsumen anda. Di jasa web ada pengembaliang uang sebesar 30% jika telat dalam pembuatan website anda.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Free Maintenance</h1>
+                  </div>
+                  <div class="modal-body" style="text-align: justify;">
+                    Anda awam dengan website? Tidak perlu khawatir. Kami memberikan support penuh kepada anda, agar anda mendapatkan hal yang anda inginkan dan juga terjadi bug kami siap untuk membantu anda.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Transparancy</h1>
+                  </div>
+                  <div class="modal-body" style="text-align: justify;">
+                    Nilai keterbukaan kami kepada klien sangat dijunjung tinggi, guna mendapatkan kenyamanan dan kepercayaan dari anda.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Legal Business</h1>
+                  </div>
+                  <div class="modal-body" style="text-align: justify;">
+                    Projek anda ditangani oleh tim yang tepat, memiliki badan usaha yang sah, dan tentunya berintegritas tinggi. Jadi jangan takut website anda sama dengan punya orang lain.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Guaranteed</h1>
+                  </div>
+                  <div class="modal-body" style="text-align: justify;">
+                    Layanan yang kami berikan memiliki garansi penuh atas kepuasan pelanggan yang menjadi prioritas kami.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </section>
+        <section id="Work">
+          <div class="mb-5 pb-4" style="background-color: #E3C770;">
+            <div class="text-center mb-5">
+              <h1 class="judul" style="color: white;">Our Work</h1>
+            </div>
+            <div class="container">
+              <div class="row mb-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-end ">
+                  <img class="gambar_work rounded-4" style="width: 83%;" src="img/work1.png" alt="">
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 text-start pt-4 " >
+                  <div class="isi_work">
+                    <h2 >Desigin</h2>
+                    <p class="tanggal pb-3">20 November 2022</p>
+                    <p>Website ini dibuat pada tanggal 20 November 2022, yang mana website ini dibuat tujuan utama adalah untuk tugas MBKM yang akan di kumpulkan pada 20 November 2022.</p>
+                    <a href="https://final-proyek-2.netlify.app/"><button type="button" class="btn button_read m-3">See More</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 text-end pt-4">
+                  <div iv class="isi_work">
+                    <h2>Sitinjak.com</h2>
+                    <p class="tanggal pb-3">28 Oktober 2022</p>
+                    <p>Website ini dibuat pada tanggal 28 Oktober 2022, yang mana website ini dibuat sesuai dengan yang di butuhkan client, yaitu untuk penjualan jasa logo. Logo yang dapa di pesan punya banyak jenis</p>
+                    <a href="https://finalproyek1.netlify.app"><button type="button" class="btn button_read m-3">See More</button></a>
+                  </div>
+                </div>
+                <div class="col-lg-6 text-start">
+                  <img class="gambar_work rounded-4" style="width: 83%;" src="img/work2.png" alt="">
+                </div>
+              </div>
+              
+              <div class="row mb-5">
+                <div class="col-lg-6 text-end">
+                  <img class="gambar_work rounded-4" style="width: 83%;" src="img/work3.png" alt="">
+                </div>
+                <div class="col-lg-5 text-start pt-4">
+                  <div class="isi_work">
+                    <h3>Anwar Center</h3>
+                    <p class="tanggal pb-3">28 Oktober 2022</p>
+                    <p>Rekomendasi jasa servis HP terbaik dan profesional sebagai solusi untuk kebutuhan anda adalah perusahaan AnwarCenter. AnwarCenter merupakan jasa servis HP terbaik di Indonesia.</p>
+                    <a href="https://curious-stroopwafel-125718.netlify.app/"><button type="button" class="btn button_read m-3">See More</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 text-end pt-4">
+                  <div class="isi_work">
+                    <h3>Go Green</h3>
+                    <p class="tanggal pb-3">20 Agustus 2022</p>
+                    <p>Website Go Green ini adalah website yang dikerjakan untuk kebutuhan pihak kementrian kemaritiman dan investasi mengenai informasi tentang kehutanan yang ada di Indonesia.</p>
+                    <a href="#Work"><button type="button" class="btn button_read m-3">See More</button></a>
+                  </div>
+                </div>
+                <div class="col-lg-6 text-start">
+                  <img class="gambar_work rounded-4" style="width: 83%;" src="img/work4.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="#Work"><button type="button" class="btn button_read">See All Work</button></a>
+            </div>
+          </div>
+        </section>
+
+        <section id="Contact" >
+          <div class="pt-2">
+            <h2 class=" pb-4 judul text-center">Contact Us</h2>
+            <div class="row">
+              <div class="col-lg-6 pertanyaan p-2">
+                    <p style="font-size: 18px; color: #d68100;">Apakah kamu punya pertanyaan?</p>
+                    <div >
+                      <h1 class="py-3">Kami sangat senang </h1>
+                      <h1 >mendengar </h1>
+                      <h1 class="py-3">pertanyaanmu</h1>
+                    </div>
+              </div>
+
+              <div class="col-lg-6 my-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Any Question">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <div class="d-grid gap-2">
+                  <button class="btn button_read " type="button">Button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        </div>
+
+          <footer style="background-color: black; ">
+            <div class="container">
+            <p style="margin: 0; padding: 5px; color: white;"> 2022@ All rights reserved by Kelompok 2 </p>
+            </div>
+            </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="owl.carousel.js"></script>
+    <script src="java.js"></script>
+    </body>
+</html>
