@@ -18,3 +18,10 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+function kirim(){
+    Swal.fire(
+        'Pesan Anda telah dikirim',
+        'Silahkan menunggu balasan dari kami',
+        'success'
+      )
+}
